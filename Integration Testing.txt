@@ -1,0 +1,4 @@
+/tests
+  /integration
+    apiIntegration.test.js
+    // ... other integration test files
