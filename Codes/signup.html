@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LounedaWorld - Sign Up</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 500px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      color: #555;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #04855c;
+    }
+
+    #login-link {
+      text-align: center;
+      margin-top: 15px;
+      color: #666;
+    }
+
+    #login-link a {
+      color: #04AA6D;
+      text-decoration: none;
+    }
+
+    nav {
+      background-color: #04AA6D;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="Login.html">Home</a></li>
+      <li><a href="membership.html">Membership</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Customer Services</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="Signup.html">Signup</a></li>
+      <li><a href="template.html">Template</a></li>
+      <li><a href="informative.html">Informative</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>LounedaWorld</h1>
+    <form action="#" method="post">
+      <label for="fullname">Full Name</label>
+      <input type="text" placeholder="Enter Full Name" name="fullname" required>
+
+      <label for="username">Username</label>
+      <input type="text" placeholder="Enter Username" name="username" required>
+
+      <label for="password">Password</label>
+      <input type="password" placeholder="Enter Password" name="password" required>
+
+      <label for="sex">Sex</label>
+      <select name="sex" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="dob">Date of Birth</label>
+      <input type="date" name="dob" required>
+
+      <label for="country">Country</label>
+      <input type="text" placeholder="Enter Country" name="country" required>
+
+      <label for="idNumber">ID Number</label>
+      <input type="text" placeholder="Enter ID Number" name="idNumber" required>
+
+      <button type="button" onclick="alert('Signup functionality to be added')">Sign Up</button>
+    </form>
+    <p id="login-link">Already have an account? <a href="index.html">Login</a></p>
+  </div>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="help.html">Help</a></li>
+        <li><a href="explore_dream.html">Explore Dream</a></li>
+        <li><a href="DreamForge.html">DreamForge</a></li>
+        <li><a href="dream_preview.html">Dream Preview</a></li>
+        <li><a href="download_app.html">Download App</a></li>
+        <li><a href="buy_ring.html">Buy Ring</a></li>
+      </ul>
+    </nav>
+    <p style="text-align: center;">&copy; 2024 LounedaWorld. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

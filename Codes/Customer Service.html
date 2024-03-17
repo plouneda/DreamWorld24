@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Services - DreamForge</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for the navigation menu */
+        nav {
+            background-color: #4CAF50; /* Green background */
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px; /* Ensure space between nav and content */
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff; /* White text */
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s ease; /* Smooth transition */
+        }
+        nav ul li a:hover {
+            color: #d4e157; /* Light green on hover */
+        }
+        /* Additional styles for the Customer Services page */
+        body {
+            background-color: #f1f1f1; /* Light gray background */
+            font-family: Arial, sans-serif;
+        }
+        .customer-services-section {
+            background-color: #fff; /* White background */
+            padding: 50px 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+        .customer-services-section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #4CAF50; /* Green heading */
+        }
+        .customer-services-section p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #333; /* Darker text */
+        }
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .contact-form button {
+            background-color: #8BC34A; /* Lighter green button */
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+        .contact-form button:hover {
+            background-color: #689F38; /* Darker green on hover */
+        }
+        footer {
+            background-color: #4CAF50; /* Green footer */
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 20px; /* Ensure space between content and footer */
+        }
+        footer a {
+            color: #fff; /* White footer links */
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: color 0.3s ease; /* Smooth transition */
+        }
+        footer a:hover {
+            color: #d4e157; /* Light green on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Customer Services</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Customer Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="Signup.html">Signup</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="template.html">Template</a></li>
+                <li><a href="informative.html">Informative</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="customer-services-section">
+        <h2>Welcome to Our Customer Services</h2>
+        <p>Our dedicated customer service team is here to assist you with any inquiries or issues you may have. Feel free to reach out to us for support.</p>
+        <div class="contact-form">
+            <form action="submit_form.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Your Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DreamForge. All rights reserved.</p>
+        <br>Explore more of DreamForge: <a href="services.html">Services</a> | <a href="contact.html">Contact Us</a></br>
+        <ul>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="explore_dream.html">Explore Dream</a></li>
+            <li><a href="DreamForge.html">DreamForge</a></li>
+            <li><a href="dream_preview.html">Dream Preview</a></li>
+            <li><a href="download_app.html">Download App</a></li>
+            <li><a href="buy_ring.html">Buy Ring</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

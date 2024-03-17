@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - LounedaWorld</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add any additional styles for the Contact Us page -->
+    <style>
+        /* Additional styles for the Contact Us page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #4CAF50;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #04564A;
+        }
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact DreamForge</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Customer Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="Signup.html">Signup</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="template.html">Template</a></li>
+            <li><a href="informative.html">Informative</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Get in Touch</h2>
+        <p>Have questions or feedback? Reach out to us!</p>
+        
+        <!-- Contact Form -->
+        <form action="submit_form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="dreamworld@youtlook.com" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>Email: dreamworld@outlook.com</p>
+            <p>Phone: +1 234-567-8901</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 LounedaWorld. All rights reserved.</p>
+        <br>Explore more of LounedaWorld: <a href="help.html">Help</a> | <a href="explore_dream.html">Explore Dream</a> | <a href="DreamForge.html">DreamForge</a> | <a href="dream_preview.html">Dream Preview</a> | <a href="download_app.html">Download App</a> | <a href="buy_ring.html">Buy Ring</a></br>
+    </footer>
+</body>
+</html>
