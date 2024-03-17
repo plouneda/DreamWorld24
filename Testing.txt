@@ -1,5 +1,0 @@
-/tests
-  /unit
-    dreamService.test.js
-    user.test.js
-    // ... other test files
