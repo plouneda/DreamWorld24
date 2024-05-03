@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Confirmation</title>
+</head>
+<body>
+    <h1>Dream Confirmation</h1>
+    <p><strong>Theme:</strong> {{ user_dream.theme }}</p>
+    <p><strong>Setting:</strong> {{ user_dream.setting }}</p>
+    <p><strong>Characters:</strong> {{ user_dream.characters | join(", ") }}</p>
+</body>
+</html>

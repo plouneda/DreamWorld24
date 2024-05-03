@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Creation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        input[type="text"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dream Creation</h1>
+        <form action="/dream" method="POST">
+            <label for="theme">Theme:</label>
+            <input type="text" id="theme" name="theme" required><br>
+
+            <label for="setting">Setting:</label>
+            <input type="text" id="setting" name="setting" required><br>
+
+            <label for="characters">Characters:</label><br>
+            <input type="checkbox" id="character1" name="characters" value="Character 1">
+            <label for="character1">Character 1</label><br>
+            <input type="checkbox" id="character2" name="characters" value="Character 2">
+            <label for="character2">Character 2</label><br>
+            <input type="checkbox" id="character3" name="characters" value="Character 3">
+            <label for="character3">Character 3</label><br>
+
+            <input type="submit" value="Create Dream">
+        </form>
+    </div>
+</body>
+</html>
